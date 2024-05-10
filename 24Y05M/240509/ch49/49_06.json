@@ -1,0 +1,13 @@
+{
+    "name": "esnext-project",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "babel src/js -w -d dist/js"
+    },
+    "devDependencies": {
+      "@babel/cli": "^7.10.3",
+      "@babel/core": "^7.10.3",
+      "@babel/preset-env": "^7.10.3"
+    }
+  }
+  
